@@ -8,6 +8,7 @@
 <title>JSTL Demo</title>
 </head>
 <body>
+    <h1>Jsp</h1>
 <c:set var="name" value="chirag"></c:set>
 <c:out value="${name}"></c:out>
 </body>
