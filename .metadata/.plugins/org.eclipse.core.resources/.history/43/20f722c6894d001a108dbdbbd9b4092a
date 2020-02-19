@@ -1,0 +1,18 @@
+
+public class MainDisplay {
+	
+	public static Start ChooseStyle() {
+		Start start = null;
+		Book page=null;
+		String type1="metal";
+		String type2="wooden";
+		if(type1.equalsIgnoreCase("METAL")) {
+			page=new MetalBook();
+			page.createPen().write();
+			
+		}
+		
+		return start;
+	}
+
+}

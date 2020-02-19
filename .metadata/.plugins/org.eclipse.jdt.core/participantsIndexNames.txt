@@ -1,0 +1,23 @@
+INDEX VERSION 1.131
+C:\Users\mobiuso\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2075774963.index
+\ForwardRedirect\src
+C:\Users\mobiuso\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2416664023.index
+\SessionDemo\src
+C:\Users\mobiuso\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3421554545.index
+\CookieDemo\src
+C:\Users\mobiuso\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1189848986.index
+\ForwardRedirectJSP\src
+C:\Users\mobiuso\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\741022316.index
+\JSTLSetting\src
+C:\Users\mobiuso\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2775044409.index
+\ForwardRedirect\src
+C:\Users\mobiuso\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\983193932.index
+\HelloJSP\src
+C:\Users\mobiuso\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2133569417.index
+\BasicMVC\src
+C:\Users\mobiuso\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1595837489.index
+\ForwardRedirect\src
+C:\Users\mobiuso\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2705092027.index
+\BasicMVC\src
+C:\Users\mobiuso\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3376931783.index
+\Cookies\src

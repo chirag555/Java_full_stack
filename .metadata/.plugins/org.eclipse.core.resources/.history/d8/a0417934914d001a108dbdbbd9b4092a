@@ -1,0 +1,32 @@
+
+public class MainDisplay {
+	
+	public static Book book() {
+		Start start = null;
+		Book book=null;
+		String type1="metal";
+		//String type2="wooden";
+		//String type2="plastic";
+		
+		if(type1.equalsIgnoreCase("metal")) 
+		{
+			
+			
+		}
+		else if(type1.equalsIgnoreCase("wooden")) 
+		{
+			
+		}else if(type1.equalsIgnoreCase("plastic")) 
+		{
+			
+		}
+		
+		return book;
+	}
+	public static void main(String[] args) {
+		
+			ChooseStyle();
+		
+	}
+
+}

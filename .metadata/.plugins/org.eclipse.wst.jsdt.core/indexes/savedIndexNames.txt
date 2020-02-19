@@ -1,0 +1,13 @@
+INDEX VERSION 1.4+C:\Users\mobiuso\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2055351946.index
+3567203636.index
+2137514712.index
+113478396.index
+2530802075.index
+2318349534.index
+3091805280.index
+3917291143.index
+1469342418.index
+3197670930.index
+3983060634.index
+1204056666.index
