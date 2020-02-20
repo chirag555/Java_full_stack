@@ -17,7 +17,7 @@
 --><!-- Note:  A "Server" is not itself a "Container", so you may not
      define subcomponents such as "Valves" at this level.
      Documentation at /docs/config/server.html
- --><Server port="8090" shutdown="SHUTDOWN">
+ --><Server port="9000" shutdown="SHUTDOWN">
   <Listener className="org.apache.catalina.startup.VersionLoggerListener"/>
   <!-- Security listener. Documentation at /docs/config/listeners.html
   <Listener className="org.apache.catalina.security.SecurityListener" />
@@ -149,7 +149,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="ForwardRedirect" path="/ForwardRedirect" reloadable="true" source="org.eclipse.jst.jee.server:ForwardRedirect"/><Context docBase="BasicMVC" path="/BasicMVC" reloadable="true" source="org.eclipse.jst.jee.server:BasicMVC"/><Context docBase="HelloServlet" path="/HelloServlet" reloadable="true" source="org.eclipse.jst.jee.server:HelloServlet"/><Context docBase="SessionDemo" path="/SessionDemo" reloadable="true" source="org.eclipse.jst.jee.server:SessionDemo"/><Context docBase="Cookies" path="/Cookies" reloadable="true" source="org.eclipse.jst.jee.server:Cookies"/><Context docBase="JSTLSetting" path="/JSTLSetting" reloadable="true" source="org.eclipse.jst.jee.server:JSTLSetting"/><Context docBase="HelloJSP" path="/HelloJSP" reloadable="true" source="org.eclipse.jst.jee.server:HelloJSP"/></Host>
+      <Context docBase="SessionDemo" path="/SessionDemo" reloadable="true" source="org.eclipse.jst.jee.server:SessionDemo"/><Context docBase="ForwardRedirect" path="/ForwardRedirect" reloadable="true" source="org.eclipse.jst.jee.server:ForwardRedirect"/><Context docBase="BasicMVC" path="/BasicMVC" reloadable="true" source="org.eclipse.jst.jee.server:BasicMVC"/><Context docBase="HelloServlet" path="/HelloServlet" reloadable="true" source="org.eclipse.jst.jee.server:HelloServlet"/><Context docBase="Cookies" path="/Cookies" reloadable="true" source="org.eclipse.jst.jee.server:Cookies"/><Context docBase="JSTLSetting" path="/JSTLSetting" reloadable="true" source="org.eclipse.jst.jee.server:JSTLSetting"/><Context docBase="HelloJSP" path="/HelloJSP" reloadable="true" source="org.eclipse.jst.jee.server:HelloJSP"/></Host>
     </Engine>
   </Service>
 </Server>

@@ -22,6 +22,7 @@ else{
 %>
 UserName :<%=username %>
 <br>
+<br>
 SessionId:<%=sessionID %>
 <form action="<%=request.getContextPath() %>/SessionDestroy" method=get>
 <input type=hidden value=destroy name=action>
