@@ -2240,3 +2240,241 @@ Caused by: java.net.ConnectException: Connection timed out: connect
 
 !ENTRY org.eclipse.jst.server.tomcat.core 4 0 2020-02-20 11:28:08.036
 !MESSAGE The server cannot be started because one or more of the ports are invalid. Open the server editor and correct the invalid ports.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:39:28.982
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:39:29.043
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:39:29.070
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:39:29.171
+!MESSAGE buffering callback sts4.classpath.nngQuawA SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:39:29.197
+!MESSAGE executing callback sts4.classpath.nngQuawA 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:39:32.083
+!MESSAGE executing callback sts4.classpath.nngQuawA FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2020-02-20 16:39:32.134
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:197)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:168)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:39:37.218
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:39:37.231
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:39:37.242
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:39:37.312
+!MESSAGE buffering callback sts4.classpath.nngQuawA SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:39:37.360
+!MESSAGE executing callback sts4.classpath.nngQuawA 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:39:37.418
+!MESSAGE executing callback sts4.classpath.nngQuawA SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:39:37.710
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:39:37.848
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:39:37.940
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:39:37.966
+!MESSAGE buffering callback sts4.classpath.nngQuawA SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:39:37.982
+!MESSAGE executing callback sts4.classpath.nngQuawA 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:39:38.083
+!MESSAGE executing callback sts4.classpath.nngQuawA SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:39:38.134
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:39:38.175
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:39:38.600
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:39:38.693
+!MESSAGE buffering callback sts4.classpath.nngQuawA SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:39:38.724
+!MESSAGE executing callback sts4.classpath.nngQuawA 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:39:38.744
+!MESSAGE executing callback sts4.classpath.nngQuawA SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:39:39.811
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:39:40.022
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:39:40.056
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:39:40.126
+!MESSAGE buffering callback sts4.classpath.nngQuawA SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:39:40.150
+!MESSAGE executing callback sts4.classpath.nngQuawA 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:39:42.178
+!MESSAGE executing callback sts4.classpath.nngQuawA FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2020-02-20 16:39:42.203
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:197)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:168)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:39:56.616
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:39:56.725
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:39:56.771
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:39:56.793
+!MESSAGE buffering callback sts4.classpath.nngQuawA SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:39:56.815
+!MESSAGE executing callback sts4.classpath.nngQuawA 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:39:57.085
+!MESSAGE executing callback sts4.classpath.nngQuawA SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:39:57.138
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:39:57.281
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:39:57.533
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:39:57.685
+!MESSAGE buffering callback sts4.classpath.nngQuawA SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:39:57.755
+!MESSAGE executing callback sts4.classpath.nngQuawA 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:39:57.871
+!MESSAGE executing callback sts4.classpath.nngQuawA SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:39:59.303
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:39:59.337
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:39:59.358
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:39:59.377
+!MESSAGE buffering callback sts4.classpath.nngQuawA SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:39:59.389
+!MESSAGE executing callback sts4.classpath.nngQuawA 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:39:59.438
+!MESSAGE executing callback sts4.classpath.nngQuawA SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:40:12.039
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:40:12.089
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:40:12.128
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:40:12.156
+!MESSAGE buffering callback sts4.classpath.nngQuawA SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:40:12.174
+!MESSAGE executing callback sts4.classpath.nngQuawA 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:40:12.425
+!MESSAGE executing callback sts4.classpath.nngQuawA SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:40:12.597
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:40:12.635
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:40:12.685
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:40:12.703
+!MESSAGE buffering callback sts4.classpath.nngQuawA SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:40:12.716
+!MESSAGE executing callback sts4.classpath.nngQuawA 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:40:12.760
+!MESSAGE executing callback sts4.classpath.nngQuawA SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:40:13.151
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:40:13.226
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:40:13.244
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:40:13.272
+!MESSAGE buffering callback sts4.classpath.nngQuawA SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:40:13.299
+!MESSAGE executing callback sts4.classpath.nngQuawA 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:40:13.327
+!MESSAGE executing callback sts4.classpath.nngQuawA SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:40:44.829
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:40:44.854
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:40:44.876
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:40:44.902
+!MESSAGE buffering callback sts4.classpath.nngQuawA SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:40:44.937
+!MESSAGE executing callback sts4.classpath.nngQuawA 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-20 16:40:44.958
+!MESSAGE executing callback sts4.classpath.nngQuawA SUCCESS [done]

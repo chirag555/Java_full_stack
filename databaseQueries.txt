@@ -1,0 +1,140 @@
+left join
+
+select c.id,c.name,c.city,c.contact,n.oid,n.odate,n.price
+from customer c 
+LEFT JOIN 
+neworder n 
+on
+c.id=n.cid
+
+
+
+
+
+many to many
+select *
+ from customer c
+ LEFT JOIN 
+porder p 
+on 
+c.id=p.cid
+
+https://docs.google.com/presentation/d/1qbi_2L-suQ83EDYjx3VK7y8t-az62rLo0NKWJ_YCVGg/edit?usp=sharing
+
+USE twitter;
+
+# CREATE DATABASE
+#CREATE DATABASE IF NOT EXISTS `twitter`;
+
+#DROP DATABASE IF EXISTS `twitter`;
+
+# BUILD SCHEMA
+
+	# Create Table
+	CREATE TABLE `users` (
+		id INTEGER AUTO_INCREMENT PRIMARY KEY,
+        username VARCHAR(50),
+        created_at TIMESTAMP DEFAULT NOW()
+    );
+    
+    # Drop Table
+    DROP TABLE IF EXISTS `users`;
+    
+    
+    # Create Tweets
+    CREATE TABLE `tweets` (
+		id INTEGER AUTO_INCREMENT PRIMARY KEY,
+        body TEXT NOT NULL,
+        user_id INTEGER,
+        created_at TIMESTAMP DEFAULT NOW(),
+		FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+    );
+    
+    # Drop Table Tweets
+    DROP TABLE IF EXISTS `tweets`;
+    
+    # Create Replies
+	CREATE TABLE IF NOT EXISTS `replies` (
+		id INTEGER AUTO_INCREMENT PRIMARY KEY,
+        body TEXT NOT NULL,
+        user_id INT,
+        tweet_id INT,
+        created_at TIMESTAMP DEFAULT NOW(),
+        FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
+        FOREIGN KEY (tweet_id) REFERENCES tweets(id) ON DELETE CASCADE
+    );
+    
+     # Drop Replies
+    DROP TABLE IF EXISTS `replies`;
+    
+	#Create likes table
+		CREATE table likes(
+users_id int,
+    tweets_id int,
+    created_at timestamp default now(),
+    FOREIGN key (user_id) REFERENCES users(id) on DELETE CASCADE,
+    FOREIGN KEY (tweets_id)REFERENCES tweets(id) on delete CASCADE,
+    PRIMARY key (users_id,tweets_id)
+);
+
+
+# INSERT DATA
+
+	# Users
+	INSERT INTO `users` (username) 
+				VALUES ('swapnil'),('divyansh'),('jenny'),('vikas');
+                
+	# Tweeets
+    INSERT INTO `tweets` (body, user_id) 
+				VALUES  ('Nice Weather', 1),('CSS in Html..', 1),
+					('PHP is SSSL', 2),(' read  SQL', 2),
+                       			 ('Writing good ', 4),('How to store images', 4),
+                       			 (' Chromecasts', 4);
+                        
+	# Replies
+    INSERT INTO `replies` (body, user_id, tweet_id)
+				VALUES ('Agree!!', 4, 2), ('Yup!', 1, 2),
+                ('So whaT?', 1, 1), ('Good ', 2, 3),
+                ('Nice read too good!!', 3, 4), ('Heard of albums?..', 2,5),
+                ('Looking forward!!', 4, 7), ('google', 3, 7);
+
+	#likes
+	insert into likes(users_id,tweets_id)
+			VALUES(1,2),(1,1),(3,1),(2,1),(4,4),(3,2);
+
+# SHOW
+
+	# User -> Tweets
+    SELECT 
+			tweets.id AS TweetID,
+			tweets.body As Tweet,
+			users.username AS 'User',
+            tweets.created_at AS TweetDate
+        FROM `tweets`
+        JOIN users ON tweets.user_id = users.id ORDER BY tweets.created_at DESC;
+    
+    
+    # Tweets -> Replies -> User
+    SELECT 
+			tweets.body AS 'Tweet',
+			replies.body AS 'Reply',
+            users.username AS 'User'
+		FROM `tweets`
+        JOIN replies ON replies.tweet_id = tweets.id
+        JOIN users ON replies.user_id = users.id;
+    
+		
+    # User -> Replies
+    SELECT 
+			users.username 'UserName',
+			replies.body 'Reply',
+			replies.created_at 'Tweeted At'
+        FROM replies
+		JOIN users on replies.user_id = users.id
+        JOIN tweets on replies.tweet_id = tweets.id;
+    
+    
+    
+    
+    
+    

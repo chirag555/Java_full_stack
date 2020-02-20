@@ -1,35 +1,26 @@
 
-
-abstract class Lock
-{
+abstract class Lock {
 	public abstract boolean isUnlocked(String keyCode);
-	
+
 }
+
 public class Door {
 
-	Lock lock=new Lock() {
+	Lock lock = new Lock() {
 
 		@Override
-		public boolean isUnlocked(String keyCode) 
-		{
-			if(keyCode.equals("chirag")) 
-			{
+		public boolean isUnlocked(String keyCode) {
+			if (keyCode.equals("chirag")) {
 				return true;
-			}else
-			{
+			} else {
 				return false;
-			}		
-		}		
-		
+			}
+		}
+
 	};
-	
-	
-	public Lock getLock()
-	{
+
+	public Lock getLock() {
 		return lock;
 	}
-	
-	
-	
-	
+
 }
