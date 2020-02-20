@@ -13,8 +13,6 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 9.0/lib/jsp-api.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 9.0/lib/servlet-api.jar"/>
 	<classpathentry kind="lib" path="/Users/chirag/Desktop/Tools/tomcat/lib/jasper.jar"/>
 	<classpathentry kind="lib" path="/Users/chirag/Desktop/Tools/tomcat/lib/jsp-api.jar"/>
 	<classpathentry kind="lib" path="/Users/chirag/Desktop/Tools/tomcat/lib/servlet-api.jar"/>
