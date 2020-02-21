@@ -2850,3 +2850,1466 @@ java.net.UnknownHostException: jope.ow2.org
 !ENTRY org.eclipse.wst.server.core 4 0 2020-02-20 17:45:51.919
 !MESSAGE Server Tomcat v9.0 Server at localhost failed to start.
 >>>>>>> 016317d1125c2bec1b3968079ef61cd5c7e09f4f
+!SESSION 2020-02-21 12:47:36.485 -----------------------------------------------
+eclipse.buildId=4.14.0.I20191210-0610
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-02-21 12:48:00.145
+!MESSAGE Unable to load resource file:/C:/Users/mobiuso/eclipse-workspace/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+!STACK 0
+org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.xml.sax.SAXParseExceptionpublicId: file:/C:/Users/mobiuso/eclipse-workspace/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; systemId: file:/C:/Users/mobiuso/eclipse-workspace/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; lineNumber: 2; columnNumber: 2; The markup in the document preceding the root element must be well-formed.
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.handleDemandLoadException(ResourceSetImpl.java:319)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:278)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.getResource(ResourceSetImpl.java:406)
+	at org.eclipse.e4.ui.internal.workbench.ResourceHandler.getResource(ResourceHandler.java:287)
+	at org.eclipse.e4.ui.internal.workbench.ResourceHandler.loadResource(ResourceHandler.java:263)
+	at org.eclipse.e4.ui.internal.workbench.ResourceHandler.loadMostRecentModel(ResourceHandler.java:169)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application.loadApplicationModel(E4Application.java:384)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application.createE4Workbench(E4Application.java:260)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:581)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+Caused by: org.xml.sax.SAXParseExceptionpublicId: file:/C:/Users/mobiuso/eclipse-workspace/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; systemId: file:/C:/Users/mobiuso/eclipse-workspace/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; lineNumber: 2; columnNumber: 2; The markup in the document preceding the root element must be well-formed.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(Unknown Source)
+	at org.eclipse.emf.ecore.xmi.impl.XMLLoadImpl.load(XMLLoadImpl.java:175)
+	at org.eclipse.emf.ecore.xmi.impl.XMLResourceImpl.doLoad(XMLResourceImpl.java:261)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1563)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1342)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoad(ResourceSetImpl.java:259)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:274)
+	... 23 more
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-02-21 12:48:00.265
+!MESSAGE The persisted application model has no top-level window. Reinitializing with the default application model.
+!STACK 0
+java.lang.Exception
+	at org.eclipse.e4.ui.internal.workbench.ResourceHandler.loadMostRecentModel(ResourceHandler.java:174)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application.loadApplicationModel(E4Application.java:384)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application.createE4Workbench(E4Application.java:260)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:581)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.jface 2 0 2020-02-21 12:48:19.209
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-02-21 12:48:19.209
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@577f81a0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@202d1424,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-02-21 12:48:42.831
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\mobiuso'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:08.534
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:08.614
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@6f80a5ef[org.springframework.tooling.boot.ls:1.15.0.202001210741(id=1006)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:08.745
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:10.132
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:34.555
+!MESSAGE Boot LS startup time from start to initialized: 25683ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:34.916
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.AfkWTKpyisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:34.932
+!MESSAGE subscribing to classpath changes: sts4.classpath.AfkWTKpy isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:34.951
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:34.966
+!MESSAGE subsribers = {sts4.classpath.AfkWTKpy=Send Classpath Notifications(904)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:34.977
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:34.990
+!MESSAGE project SessionDemo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.003
+!MESSAGE project AbstractFactoryMethod ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.014
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.024
+!MESSAGE project Abstraction ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.034
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.048
+!MESSAGE project AnonymousInnerClass ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.059
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.070
+!MESSAGE project AnonymusObject ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.080
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.091
+!MESSAGE project BasicMVC ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.103
+!MESSAGE Preparing classpath changed notification AbstractFactoryMethod
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.113
+!MESSAGE project Cookies ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.124
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.134
+!MESSAGE project Debbuging ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.150
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.171
+!MESSAGE project ForwardRedirect ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.197
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy AbstractFactoryMethod false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.224
+!MESSAGE project ForwardRedirectJSP ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.244
+!MESSAGE Preparing classpath changed notification Abstraction
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.275
+!MESSAGE project HelloJSP ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.301
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.324
+!MESSAGE project HelloServlet ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.338
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.349
+!MESSAGE project Hello_World ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.365
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy Abstraction false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.381
+!MESSAGE project JSTLSetting ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.396
+!MESSAGE Preparing classpath changed notification AnonymousInnerClass
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.410
+!MESSAGE project LambdaExpression ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.426
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.440
+!MESSAGE project LocalInnerClass ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.454
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.469
+!MESSAGE project Package ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.480
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy AnonymousInnerClass false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.490
+!MESSAGE project Predicate ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.500
+!MESSAGE Preparing classpath changed notification AnonymusObject
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.510
+!MESSAGE project RemoteSystemsTempFiles ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.520
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.530
+!MESSAGE project RemoteSystemsTempFiles SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.541
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.551
+!MESSAGE project Servers ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.567
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy AnonymusObject false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.586
+!MESSAGE project Servers SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.629
+!MESSAGE Preparing classpath changed notification BasicMVC
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.646
+!MESSAGE project Udemy-First ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.663
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.678
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.691
+!MESSAGE classpath=51 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.702
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.AfkWTKpy => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.714
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy BasicMVC false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.727
+!MESSAGE Preparing classpath changed notification Cookies
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.739
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.750
+!MESSAGE classpath=51 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.765
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy Cookies false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.775
+!MESSAGE Preparing classpath changed notification Debbuging
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.786
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.798
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.810
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy Debbuging false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.821
+!MESSAGE Preparing classpath changed notification ForwardRedirect
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.832
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.854
+!MESSAGE classpath=51 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.869
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy ForwardRedirect false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.881
+!MESSAGE Preparing classpath changed notification ForwardRedirectJSP
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.893
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.906
+!MESSAGE classpath=20 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.918
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy ForwardRedirectJSP false 20
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.967
+!MESSAGE Preparing classpath changed notification HelloJSP
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.978
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:35.990
+!MESSAGE classpath=51 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:36.006
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy HelloJSP false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:36.017
+!MESSAGE Preparing classpath changed notification HelloServlet
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:36.028
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:36.039
+!MESSAGE classpath=51 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:36.053
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy HelloServlet false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:36.064
+!MESSAGE Preparing classpath changed notification Hello_World
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:36.074
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:36.087
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:36.102
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy Hello_World false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:36.113
+!MESSAGE Preparing classpath changed notification JSTLSetting
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:36.123
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:36.134
+!MESSAGE classpath=52 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:36.149
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy JSTLSetting false 52
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:36.159
+!MESSAGE Preparing classpath changed notification LambdaExpression
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:36.170
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:36.182
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:36.194
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy LambdaExpression false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:36.204
+!MESSAGE Preparing classpath changed notification LocalInnerClass
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:36.215
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:36.227
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:36.240
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy LocalInnerClass false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:36.250
+!MESSAGE Preparing classpath changed notification Package
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:36.261
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:36.274
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:36.285
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy Package false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:36.296
+!MESSAGE Preparing classpath changed notification Predicate
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:36.306
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:36.318
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:36.335
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy Predicate false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:36.349
+!MESSAGE Preparing classpath changed notification Udemy-First
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:36.360
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:36.374
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:36.387
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy Udemy-First false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:36.398
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 19 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 12:55:36.648
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 13:02:49.486
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 13:02:49.605
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 13:02:49.641
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 13:02:49.677
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 13:02:49.693
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 13:02:49.721
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 14:54:31.577
+!MESSAGE Preparing classpath changed notification JspReadBean
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 14:54:31.699
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 14:54:31.737
+!MESSAGE classpath=51 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 14:54:31.753
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy JspReadBean false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 14:54:31.763
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 14:54:32.143
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 14:54:37.648
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 14:54:37.711
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 14:54:37.732
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 14:54:37.781
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 14:54:37.792
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 14:54:37.810
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2020-02-21 14:54:41.298
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 14:55:21.572
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 14:55:21.674
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 14:55:21.859
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 14:55:21.898
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 14:55:21.931
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 14:55:21.995
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 14:57:32.129
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 14:57:32.208
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 14:57:32.219
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 14:57:32.239
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 14:57:32.251
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 14:57:32.281
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 14:58:39.116
+!MESSAGE Preparing classpath changed notification JspReadBean
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 14:58:39.132
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 14:58:39.148
+!MESSAGE classpath=51 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 14:58:39.169
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy JspReadBean false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 14:58:39.181
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 14:58:39.218
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 14:58:39.315
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 14:58:39.331
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 14:58:39.348
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 14:58:39.373
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 14:58:39.390
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 14:58:39.412
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 14:58:40.316
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 14:58:40.337
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 14:58:40.350
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 14:58:40.370
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 14:58:40.385
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 14:58:40.404
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 14:59:32.463
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 14:59:32.517
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 14:59:32.535
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 14:59:32.558
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 14:59:32.570
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 14:59:32.587
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:00:57.323
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:00:57.369
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:00:57.381
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:00:57.396
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:00:57.407
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:00:57.444
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:01:02.889
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:01:02.899
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:01:02.911
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:01:02.928
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:01:02.940
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:01:02.981
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:01:05.774
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:01:05.786
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:01:05.800
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:01:05.830
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:01:05.855
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:01:05.980
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:01:07.183
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:01:07.195
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:01:07.212
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:01:07.234
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:01:07.247
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:01:07.271
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:03:08.981
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:03:09.109
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:03:09.129
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:03:09.159
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:03:09.200
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:03:09.251
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:04:42.777
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:04:42.858
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:04:42.873
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:04:42.893
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:04:42.910
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:04:42.930
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:04:43.778
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:04:43.789
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:04:43.800
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:04:43.817
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:04:43.830
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:04:43.872
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:05:58.815
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:05:58.892
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:05:58.916
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:05:58.946
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:05:58.964
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:05:59.069
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:05:59.834
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:05:59.845
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:05:59.856
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:05:59.873
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:05:59.899
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:05:59.971
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:07:45.604
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:07:45.699
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:07:45.721
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:07:45.750
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:07:45.767
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:07:45.837
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:07:46.611
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:07:46.623
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:07:46.634
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:07:46.650
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:07:46.661
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:07:46.677
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:07:58.330
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:07:58.386
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:07:58.402
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:07:58.427
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:07:58.447
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:07:58.502
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:07:59.330
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:07:59.342
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:07:59.352
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:07:59.366
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:07:59.378
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:07:59.410
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:08:14.467
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:08:14.530
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:08:14.543
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:08:14.563
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:08:14.579
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:08:14.651
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:08:15.468
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:08:15.480
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:08:15.491
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:08:15.506
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:08:15.517
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:08:15.536
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:12:30.431
+!MESSAGE Preparing classpath changed notification JspReadBean
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:12:30.511
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:12:30.660
+!MESSAGE classpath=51 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:12:31.192
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy JspReadBean false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:12:31.210
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:12:31.286
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:12:31.364
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:12:31.384
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:12:31.404
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:12:31.427
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:12:31.447
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:12:31.468
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:12:31.650
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:12:31.666
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:12:31.688
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:12:31.713
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:12:31.739
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:12:31.804
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:13:56.146
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:13:56.261
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:13:56.288
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:13:56.319
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:13:56.332
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:13:56.351
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:13:57.155
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:13:57.184
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:13:57.208
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:13:57.244
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:13:57.276
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:13:57.316
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:15:21.512
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:15:21.575
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:15:21.597
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:15:21.624
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:15:21.646
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:15:21.669
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:15:22.512
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:15:22.537
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:15:22.560
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:15:22.597
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:15:22.631
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:15:22.656
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:15:34.761
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:15:34.853
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:15:34.877
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:15:34.905
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:15:34.919
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:15:34.934
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:15:35.770
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:15:35.794
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:15:35.817
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:15:35.848
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:15:35.871
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:15:35.944
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:17:01.268
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:17:01.351
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:17:01.381
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:17:01.414
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:17:01.436
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:17:01.473
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:17:01.493
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:17:01.507
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:17:01.524
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:17:01.538
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:17:01.550
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:17:01.564
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:17:02.417
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:17:02.434
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:17:02.445
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:17:02.461
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:17:02.472
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:17:02.496
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:17:44.398
+!MESSAGE Preparing classpath changed notification ServletInitialization
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:17:44.444
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:17:44.458
+!MESSAGE classpath=51 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:17:44.476
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy ServletInitialization false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:17:44.500
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:17:44.553
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:17:45.584
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:17:45.658
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:17:45.681
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:17:45.725
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:17:45.752
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:17:45.837
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:18:50.353
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:18:50.610
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:18:50.672
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:18:50.695
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:18:50.728
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:18:50.802
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:20:30.612
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:20:30.671
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:20:30.698
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:20:30.727
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:20:30.746
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:20:30.778
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:21:07.876
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:21:07.947
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:21:07.997
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:21:08.019
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:21:08.036
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:21:08.068
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:22:10.948
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:22:10.988
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:22:11.001
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:22:11.015
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:22:11.028
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:22:11.046
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:22:31.210
+!MESSAGE Preparing classpath changed notification ServletInitialization
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:22:31.225
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:22:31.237
+!MESSAGE classpath=51 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:22:31.253
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy ServletInitialization false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:22:31.270
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:22:31.284
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:22:31.464
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:22:31.478
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:22:31.488
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:22:31.503
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:22:31.558
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:22:31.571
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:22:32.503
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:22:32.543
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:22:32.562
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:22:32.582
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:22:32.596
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:22:32.626
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:23:46.607
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:23:46.802
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:23:46.835
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:23:46.858
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:23:46.904
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:23:46.933
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:23:46.977
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:23:47.001
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:23:47.021
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:23:47.071
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:23:47.175
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:23:47.199
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:24:10.602
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:24:10.654
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:24:10.675
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:24:10.698
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:24:10.718
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:24:10.739
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:26:06.046
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:26:06.094
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:26:06.120
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:26:06.149
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:26:06.166
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:26:06.191
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:27:34.564
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:27:34.614
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:27:34.631
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:27:34.656
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:27:34.672
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:27:34.702
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:27:39.247
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:27:39.263
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:27:39.274
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:27:39.289
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:27:39.301
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:27:39.316
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:29:11.507
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:29:11.546
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:29:11.558
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:29:11.573
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:29:11.585
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:29:11.611
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:29:11.698
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:29:11.715
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:29:11.736
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:29:11.759
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:29:11.776
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:29:11.798
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:29:53.315
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:29:53.393
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:29:53.409
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:29:53.430
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:29:53.440
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:29:53.461
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:31:36.216
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:31:36.273
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:31:36.284
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:31:36.299
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:31:36.310
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:31:36.327
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:31:53.266
+!MESSAGE Preparing classpath changed notification SessionDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:31:53.407
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:31:53.439
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:31:53.458
+!MESSAGE buffering callback sts4.classpath.AfkWTKpy SessionDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:31:53.476
+!MESSAGE executing callback sts4.classpath.AfkWTKpy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 15:31:53.496
+!MESSAGE executing callback sts4.classpath.AfkWTKpy SUCCESS [done]
