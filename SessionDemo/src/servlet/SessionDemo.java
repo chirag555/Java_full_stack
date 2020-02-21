@@ -18,7 +18,7 @@ public class SessionDemo extends HttpServlet {
 //	String action=request.getParameter("action");
 	
 	}
-	
+
 	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
