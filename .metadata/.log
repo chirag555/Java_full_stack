@@ -4415,6 +4415,7 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.
 !ENTRY org.eclipse.core.net 1 0 2020-02-21 10:31:22.660
 !MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
 >>>>>>> 26a148d3a9f7a2cac22543a4fa55c5e09e645110
+<<<<<<< HEAD
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-21 16:00:08.455
 !MESSAGE Preparing classpath changed notification SessionDemo
@@ -7227,3 +7228,20 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.jst.jsp.core 4 4 2020-02-24 16:13:37.450
 !MESSAGE A workspace crash was detected. The previous session did not exit normally. Not using saved taglib indexes.
+||||||| merged common ancestors
+=======
+!SESSION 2020-02-24 12:12:25.292 -----------------------------------------------
+eclipse.buildId=4.14.0.I20191210-0610
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/chirag/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/chirag/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2020-02-24 12:12:56.318
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-24 12:14:05.508
+!MESSAGE Exception caught during execution of command '[git, --version]' in '/usr/bin', return code '1', error message 'xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+'
+>>>>>>> fbb3062019bad7c4a2aed34d3db604b7fcea74ff
