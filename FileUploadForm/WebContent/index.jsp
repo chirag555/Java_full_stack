@@ -7,9 +7,10 @@
 <title>Upload File Home Page</title>
 </head>
 <body>
-<form action="imageUpload" method="post" enctype="multipart/form-data">
+<form action="imageUpload?action=filesUpload" method="post" enctype="multipart/form-data">
 Select Images<input type=file name=files multiple>
 			<input type=submit value=upload>
+			<br/><a href="<%=request.getContextPath() %>/imageUpload?action=listingImages">View Gallery</a>
 
 </form>
 
