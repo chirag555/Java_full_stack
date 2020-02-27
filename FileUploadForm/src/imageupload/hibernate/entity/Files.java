@@ -21,6 +21,14 @@ public class Files {
 	
 		this.fileName = fileName;
 	}
+	
+	public Files(int fileId,String label, String caption,String fileName) {
+		this.id=fileId;
+		this.label = label;
+		this.caption = caption;
+		this.fileName=fileName;
+	}
+
 	public Files() {}
 	public int getId() {
 		return id;
