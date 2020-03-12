@@ -1,9 +1,6 @@
 package vehicle;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-
-import vehicle.car.Corolla;
-import vehicle.car.Swift;
 import vehicle.interfaces.Car;
 
 public class App {
