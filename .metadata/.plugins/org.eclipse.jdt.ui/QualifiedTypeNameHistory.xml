@@ -15,4 +15,11 @@
 <fullyQualifiedTypeName name="imageupload.hibernate.entity.Files"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="imageupload.hibernate.DAO.FilesDAO"/>
+<fullyQualifiedTypeName name="vehicle.interfaces.Car"/>
+<fullyQualifiedTypeName name="vehicle.car.Swift"/>
+<fullyQualifiedTypeName name="vehicle.car.Corolla"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
 </qualifiedTypeNameHistroy>

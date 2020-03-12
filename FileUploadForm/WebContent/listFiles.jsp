@@ -49,7 +49,7 @@ form="<form action='imageUpload?action=update' method='post'>"+
 		"</form>";
 out.print("<td>"+form+"</td>");
 	//out.print("<td><ul><li><a href='"+path+file.getFileName()+"' >View Image </a></td></tr>");
-out.print("<td><ul><li><a href='"+request.getContextPath()+"/imageUpload?action=viewImage&fileId="+file.getId()+"'>View Image </a></td></tr>");
+out.print("<td><ul><li><a href='"+request.getContextPath()+"/imageUpload?action=viewImage&fileId="+file.getId()+"'>View Image </a></li></ul></td></tr>");
 
 	
 }

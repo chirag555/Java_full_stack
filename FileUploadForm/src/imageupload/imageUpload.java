@@ -31,6 +31,9 @@ public class imageUpload extends HttpServlet {
 		case "listingImages":
 			listingImages(request, response);
 			break;
+		case "viewImage":
+			viewImage(request, response);
+			break;
 		default:
 			request.getRequestDispatcher("index.jsp").forward(request, response);
 		}
@@ -49,15 +52,14 @@ public class imageUpload extends HttpServlet {
 		case "update":
 			updateDetails(request, response);
 			break;
-		case "viewImage":
-			viewImage(request, response);
-			break;
+		
 		default:
 			request.getRequestDispatcher("index.jsp").forward(request, response);
 		}
 	}
 
 	private void viewImage(HttpServletRequest request, HttpServletResponse response) {
+		
 		int fileId=Integer.parseInt(request.getParameter("fileId"));
 		Files file=new FilesDAO().getFile(fileId);
 		System.out.println(file);
@@ -110,3 +112,9 @@ public class imageUpload extends HttpServlet {
 	}
 
 }
+
+
+
+
+
+
